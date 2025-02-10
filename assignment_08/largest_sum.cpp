@@ -19,9 +19,9 @@ int main(){
         integers.push_back(num);
     }
     //Largest sum
-    int largest_sum = 0, current_sum=0;
-    for(int i:integers){
-        current_sum = (i < current_sum+i)? (current_sum+i) : i;
+    int largest_sum = integers[0], current_sum=integers[0];
+    for(int i = 1;i < n; i++){
+        current_sum = (integers[i] < current_sum+integers[i])? (current_sum+integers[i]) : integers[i];
         largest_sum = (largest_sum > current_sum)? largest_sum : current_sum;
     }
     cout << "largest sum of subarray = " << largest_sum << endl; 
