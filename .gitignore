@@ -3,4 +3,4 @@
 tests/
 rsa_algorithm/*.o
 .vscode/
-*.gch
+rsa_algorithm/*.gch
