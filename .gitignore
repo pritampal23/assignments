@@ -1,4 +1,6 @@
+.gitignore
 *.out
 tests/
 rsa_algorithm/*.o
 .vscode/
+*.gch
