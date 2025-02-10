@@ -1,0 +1,4 @@
+*.out
+tests/
+rsa_algorithm/*.o
+.vscode/
